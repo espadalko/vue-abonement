@@ -8,6 +8,10 @@
   
 </script>
 
-<style>
+<style lang="stylus">
+  border-size = 3px
+  cell-size = 20px
+
+  border-color = red
   
 </style>
