@@ -1,25 +1,17 @@
 <template>
 	<div class="indicator" :style="{width: size * step + 'px'}">
 		<div class="indicator__level" :style="{width: level * step + 'px'}"></div>
-		<div class="indicator__grid" :style="{width: step + 'px'}"></div>
 	</div>
 </template>
 
 <script>
-	// grid
 	export default {
 		props:{
 			size:{type: Number, default: 16},
 			level:{type: Number, default: 8},
 			step:{type: Number, default: 30},
-			grid:{type: Boolean, default: false}
 		},
-		data(){
-			return {
-			}
-		}
 	}
-
 </script>
 
 <style lang="stylus">
@@ -32,11 +24,4 @@
 		&__level
 			background-color color
 			margin 2px
-			z-index 1
-		&__grid
-			border 3px solid white
-			z-index 2
-			
-
-		
 </style>
