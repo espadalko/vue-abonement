@@ -2,9 +2,9 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <Test1 size="12" level="3" step="30"/>
-    <Test1 />
-    <Test1 class="indicator" grid="true" size="16" level="12" step="30"/>
+    <Test1 size="12" level="3" step="30" height="50" />
+    <Test1 height="50" />
+    <Test1 size="16" level="12" step="30" height="50"/>
   </div>
 </template>
 
