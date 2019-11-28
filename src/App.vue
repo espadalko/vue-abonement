@@ -2,9 +2,9 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <Test1 size="12" level="3" step="30" height="50" />
-    <Test1 height="50" />
-    <Test1 size="16" level="12" step="30" height="50"/>
+    <Test1 size="12" level="3" step="35" height="20" />
+    <Test1 height="20" />
+    <Test1 size="16" level="12" step="35" height="20"/>
   </div>
 </template>
 
@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style lang="stylus">
+*
+  box-sizing border-box
+body 
+  background-color #333
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
